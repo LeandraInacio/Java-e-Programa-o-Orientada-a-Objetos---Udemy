@@ -11,7 +11,7 @@ public class Main {
 
 		double largura = sc.nextDouble();
 		double comprimento = sc.nextDouble();
-		double metroQuadrado = sc.nextDouble();
+		double metroQuadrado = sc.nextDouble();// Marcação de debug 
 
 		double area = largura * comprimento;
 		double preco = area * metroQuadrado;
