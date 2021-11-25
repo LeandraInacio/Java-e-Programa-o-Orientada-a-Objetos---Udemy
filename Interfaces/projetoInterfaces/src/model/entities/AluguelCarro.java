@@ -14,6 +14,8 @@ public class AluguelCarro {
 	}
 
 	public AluguelCarro(Date inicio, Date fim, Veiculo veiculo) {
+		// PASSO 2: aqui os valores digitados para o carro são atribuidos aos atributos da classe
+		// proximo passo na classe Main
 		this.inicio = inicio;
 		this.fim = fim;
 		this.veiculo = veiculo;
