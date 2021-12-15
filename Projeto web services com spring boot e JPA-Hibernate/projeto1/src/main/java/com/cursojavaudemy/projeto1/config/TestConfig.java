@@ -24,6 +24,7 @@ import com.cursojavaudemy.projeto1.repositories.UserRepository;
 @Configuration
 @Profile("test")
 public class TestConfig implements CommandLineRunner {
+	
 
 	@Autowired
 	private UserRepository userRepository;
